@@ -1,0 +1,48 @@
+.main-title {
+	text-align: center;
+	line-height: 1;
+	max-width: 100%;
+
+	> * {
+		display: block;
+	}
+	
+	.main-title-initials{
+		display: block;
+		font-size: 15rem;
+		font-weight: 400;
+		top: -.75rem;
+		
+		@media (max-width: 400px) {
+		  font-size: 5em;
+		}
+	}
+	
+	.main-title-name {
+		font-size: 5rem;
+		font-weight: 400;
+		color: #777;
+		position: relative;
+		top: -.75rem;
+		
+		@media (max-width: 400px) {
+		  font-size: 4rem;
+		}
+
+	}
+
+	.main-title-punch {
+		font-size: 3rem;
+		font-weight: 200;
+		line-height: 1.2;
+		position: relative;
+		top: -.9rem;
+
+		span {
+			font-size: 3rem;
+			font-weight: 200;
+			color: #777;
+		}
+	}
+
+}
