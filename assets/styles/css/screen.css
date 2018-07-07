@@ -42,12 +42,11 @@ h3 {
     border: 1px solid #969696;
     border-radius: 1px;
     display: block;
-    float: left;
     font-size: 23px;
     list-style: none;
-    margin: 0;
-    margin-right: 30px;
-    padding: 10px 16px; }
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    text-align: center; }
     .main-contact .contact:hover, .main-contact .contact:focus {
       background: #333;
       cursor: pointer;
