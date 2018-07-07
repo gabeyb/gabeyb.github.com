@@ -1,53 +1,25 @@
 .main-contact {
+	margin: 0 0 16px 0;
+	max-width: 470px;
 	overflow: hidden;
 	width: 100%;
-	max-width: 760px;
-	margin: 0 auto;
-	.main-contact-email,
-	.main-contact-twitter {
-		list-style: none;
+	.contact {
+		border: 1px solid #969696;
+		border-radius: 1px;
 		display: block;
-		float: right;
-		margin-right: 1rem;
-		padding: .5rem 0;
-		font-size: 2rem;
-		font-weight: 200;
-		color: rgba(0,0,0,.6);
-
-		.fa {
-			color: #777;
-		}
-
-	}
-	.main-contact-email {
-		border-right: solid 1px #fff;
-		float: right;
-		.fa {
-			font-size: 1.5rem;
-			margin-top: -2px;
-		}
-
-		&:hover {
-			.fa {
-				color: red;
-				transition: color .25s linear;
-			}
-		}
-
-	}
-	.main-contact-at {
-		color: rgba(0,0,0,.4);
-		font-weight: 400;
-	}
-	.main-contact-twitter {
-		border-left: solid 1px #fff;
+		float: left;
+		font-size: 23px;
+		list-style: none;
 		margin: 0;
-
-		&:hover {
-			.fa {
-				color: #55acee;
-				transition: color .25s linear;
-			}
+		margin-right: 30px;
+		padding: 10px 16px;
+		&:hover,
+		&:focus {
+			background: #333;
+			cursor: pointer;
+			transition: background linear .15s;
+			color: #e3e3e3;
+			text-shadow: 0 1px 0 rgba(0, 0, 0, .65);
 		}
 	}
 }

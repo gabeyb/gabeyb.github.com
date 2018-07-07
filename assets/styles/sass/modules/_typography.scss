@@ -5,8 +5,11 @@
 //   html { font-size: 13px; }
 // }
 
+// font-family: 'Work Sans', sans-serif;
+// font-family: 'Bitter', serif;
+
 * {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight:  200;
 	color: #333;
 }
@@ -18,74 +21,9 @@ a:hover {
 }
 
 // Titles
-
-.section-title-container {
-	background: repeating-linear-gradient(
-	  90deg,
-	  #fff,
-	  #fff 10px,
-	  #eee 10px,
-	  #eee 20px
-	);
-	margin: 0 0 18px 1rem;
-	overflow: hidden;
-}
-
-.section-title {
-	font-size: 1.75rem;
-	font-weight: 400;
-	line-height: 1;
-	margin: 0;
-	text-transform: lowercase;
-	background: #fff;
-	float: left;
-	padding: 0 10px 0 0;
-	
-}
-
-// Work Description
-
-[class^="work-entry-"] {
-	list-style-position: inside;
-	list-style: none;
-}
-
-.work-entry-description-list {
-	margin-bottom: 0;
-}
-
-.work-entry-desc-name::before,
-.work-entry-desc-client::before,
-.work-entry-activity-title {
-	content:"Project: ";
-	text-transform: uppercase;
+h3	{
+	border-bottom: 1px solid #969696;
 	font-size: 18px;
 	font-weight: bold;
-}
-
-.work-entry-desc-client::before {
-	content:"Client: "
-}
-
-.work-entry-activities {
-	margin: 0 0 22px 40px;
-}
- 
-.work-entry-activity-title,
-.work-entry-activity
- {
-	display: inline-block;
-}
-
-.work-entry-activity {
-	padding: 0;
-	margin: 0;
-
-	&::after {
-		content: ", ";
-	}
-
-	&:last-child::after {
-		content: ""	
-	}
+	padding-bottom: 4px;
 }
