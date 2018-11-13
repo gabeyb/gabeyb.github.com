@@ -775,11 +775,17 @@ form input.cta[type="submit"] {
 }
 
 @media (max-width: 768px) {
+  #global-header {
+    height: 50px;
+  }
+
   #global-header #gh-open-link {
     background: none;
     border: none;
     color: white;
     display: block;
+    font-size: 25px;
+    line-height: 2;
   }
 
   #global-header #gh-main-nav {
@@ -814,6 +820,11 @@ form input.cta[type="submit"] {
   #global-header #gh-main-nav ul li a[aria-current="page"] {
     background: #0d47a1;
     border-radius: 0;
+    color: white;
+  }
+
+  #global-header #gh-main-nav ul li:last-child {
+    border-bottom: none;
   }
 }
 
@@ -823,34 +834,63 @@ form input.cta[type="submit"] {
   margin-bottom: 32px;
 }
 
-[class*="hero"] picture img {
+[class*="hero"] img {
   width: 100%;
   height: auto;
 }
 
 [class*="hero"] .logo-type {
   position: absolute;
-  bottom: 25%;
-  left: 0;
+  top: 75px;
   right: 0;
+  bottom: auto;
+  left: 0;
 }
 
 [class*="hero"] .logo-type .site-logo {
   float: left;
   margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 25px;
   width: 15vw;
 }
 
 [class*="hero"] .logo-type h1 {
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 5.00vw;
-  padding-left: 18px;
+  font-size: 54px;
+  padding: 18px;
 }
 
 [class*="hero"] .logo-type h1 span {
   display: block;
   font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  [class*="hero"] .logo-type .site-logo img {
+    width: 78px;
+    height: auto;
+  }
+
+  [class*="hero"] .logo-type h1 {
+    font-size: 28px;
+  }
+
+  [class*="hero"] .logo-type h1 span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  [class*="hero"] .logo-type h1 {
+    font-size: 24px;
+  }
+
+  [class*="hero"] .logo-type h1 span {
+    font-size: 16px;
+  }
 }
 
 [class*="hero"][class*="-scaled"] {
