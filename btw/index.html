@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Behind the Wheel Homepage</title>
-    <link rel="stylesheet" href="/btw/css/index.bundle.css">
+    <link rel="stylesheet" href="css/index.bundle.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -30,12 +30,13 @@
         <!-- Hero -->
         <section class="hero">
             <picture>
-                <source srcset="images/photo header.png" media="(min-width: 800px)">
-                <img src="images/photo header.png" />
+                <source class="hero-bg-image" srcset="images/photo-header-mobile.png" media="(max-width: 767px)">
+                <img class="hero-bg-image" src="images/photo-header-desktop.png" />
             </picture>
+
             <div class="logo-type">
                 <img class="site-logo" src="images/Logo.png" alt="">
-                <h1>
+                <h1 class="site-name">
                     Behind the Wheel, Inc.
                     <span>Driver's Education</span>
                 </h1>
@@ -143,7 +144,7 @@
             </picture>
         </section>
     </main>
-    <script src="/btw/js/index.bundle.js"></script>
+    <script src="js/index.bundle.js"></script>
 </body>
 
 </html>
