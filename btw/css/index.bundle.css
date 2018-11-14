@@ -693,6 +693,36 @@ body {
   line-height: 1.8;
 }
 
+.quotes .container .row {
+  padding-bottom: 16px;
+}
+
+.quotes .container .row:last-child div:before {
+  border-top: 1px solid #0e0f0f;
+  content: ' ';
+  display: block;
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .quotes .container .row {
+    padding-bottom: 0;
+  }
+
+  .quotes .container .row div {
+    padding-bottom: 16px;
+  }
+
+  .quotes .container .row div:before {
+    border-top: 1px solid #0e0f0f;
+    content: ' ';
+    display: block;
+    padding-bottom: 16px;
+    width: 100%;
+  }
+}
+
 .basic-layout p b {
   color: #42a85d;
   display: block;
