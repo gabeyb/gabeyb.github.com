@@ -860,6 +860,15 @@ form input.cta[type="submit"] {
     padding: 16px 10px;
   }
 
+  #global-header #gh-main-nav ul li a:hover {
+    background: #0d47a1;
+    border-radius: 0;
+    border-color: #000000;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 16px 10px;
+  }
+
   #global-header #gh-main-nav ul li:last-child {
     border-bottom: none;
   }
