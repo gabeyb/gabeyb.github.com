@@ -26,12 +26,12 @@ body {
 
 * {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  color: black; }
+  font-weight: 400;
+  color: #333; }
 
 a,
 a:hover {
-  color: black;
+  color: #333;
   text-decoration: none; }
 
 h3 {
@@ -85,17 +85,17 @@ h3 {
     background-color: #FF82D3;
     outline: 1px solid #dadada; }
   .visual-button:focus {
-    color: black;
+    color: #333;
     outline: 1px dotted #dadada; }
 
 .skills-list {
   list-style: circle;
-  max-width: 460px; }
+  max-width: 480px; }
   .skills-list li {
-    line-height: 1.5;
+    line-height: 1.35;
     margin: 16px; }
     .skills-list li a {
-      color: black;
+      color: #333;
       padding: 3px;
       padding-left: 0;
       text-decoration: underline;
@@ -118,7 +118,7 @@ h3 {
     margin-top: 8px; }
 
 *[role="contentinfo"] .content-container {
-  color: black;
+  color: #333;
   font-weight: bold;
   padding-top: 32px;
   padding-bottom: 32px; }
