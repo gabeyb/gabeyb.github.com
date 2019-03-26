@@ -1,0 +1,26 @@
+.skills-list {
+  list-style: circle;
+  max-width: 460px;
+
+  li {
+    line-height: 1.5;
+    margin: 16px;
+
+    a {
+      color: $font-color;
+      padding: 3px;
+      padding-left: 0;
+      text-decoration: underline;
+      transition: color .2s linear;
+
+      &:hover {
+        color: $primary-color;
+      }
+
+      &:focus {
+        outline: 1px dotted $primary-color;
+        outline-offset: 2px;
+      }
+    }
+  }
+}

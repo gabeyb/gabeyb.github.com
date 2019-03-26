@@ -1,0 +1,58 @@
+.logo-container {
+  background-image: linear-gradient(134deg, rgba(20, 20, 20, 1) 0%, rgba(33, 33, 33, 1) 18%, rgba(51, 51, 51, 1) 37%, rgba(41, 41, 41, 1) 60%, rgba(66, 66, 66, 1) 83%, rgba(66, 66, 66, 1) 100%);
+  border-bottom: 3px solid black;
+  box-shadow: inset 0 0 100px black;
+
+  .content-container {
+    align-items: center;
+    display: flex;
+    min-height: 150px;
+
+    .logo {
+      flex: 1 0 auto;
+
+      .logo-less-than,
+      .logo-greater-than,
+      .logo-initials {
+        font-size: 65px;
+      }
+
+      .logo-less-than,
+      .logo-greater-than {
+        color: #fff;
+      }
+
+      .logo-initials {
+        color: $primary-color;
+      }
+
+    }
+
+    .contact {
+      padding: 32px 0;
+
+      [role="navigation"] {
+        ul {
+          display: flex;
+          height: 100%;
+
+          li {
+            margin: 0 12px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-container {
+    .content-container {
+      flex-direction: column;
+    }
+  }
+}

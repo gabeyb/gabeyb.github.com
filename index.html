@@ -1,62 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gabe Braddy UI Engineer and Designer</title>
-	<link rel="stylesheet" href="assets/styles/css/normalize.css">
-	<link rel="stylesheet" href="assets/styles/css/screen.css">
-	<link href="https://fonts.googleapis.com/css?family=Bitter|Work+Sans" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/css/normalize.css">
+  <link rel="stylesheet" href="assets/styles/css/screen.css">
+  <title>Gabe Braddy UI Engineer &amp; Designer</title>
 </head>
 
 <body>
+  <header role="banner">
 
-	<div class="container--full-width">
-		<div class="container">
-			<h1 class="main-title column">
-				Gabe Braddy
-				<br>
-				<span class="developer">UI Engineer &amp;</span>
-				<span class="designer">Designer</span>
-			</h1>
-		</div>
-	</div>
+    <section class="logo-container">
+      <div class="content-container contain">
+        <div class="logo" aria-hidden="true">
+          <span class="logo-less-than">&lt;</span>
+          <span class="logo-initials">gb</span>
+          <span class="logo-greater-than">&gt;</span>
+        </div>
+        <div class="contact">
+          <p class="screen-reader-text">Contact Me</p>
+          <nav role="navigation">
+            <ul>
+              <li><a class="visual-button" href="https://www.linkedin.com/in/gabebraddy/">LinkedIn</a></li>
+              <li><a class="visual-button" href="https://codepen.io/gabeyb/">Codepen.io</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
 
-	<div class="container">
-		<div class="column">
-			<section>
-				<h3>Introduction:</h3>
-				<p>
-					<strong>I speak the languages of Design and Development.</strong>
-					<br> Able to flow between design thinking and front-end-development best practices, I am at my best where these two disciplines
-					come together.
-				</p>
-			</section>
-			<section>
-				<h3>Experience:</h3>
-				<ul>
-					<li>Fourteen years of web development experience</li>
-					<li>Expert in HTML5, CSS3, Jquery</li>
-					<li>Proficient in Javascript (ES6) and React</li>
-					<li>Eighteen years of screen-design experience</li>
-					<li>Expert in Sketch, Adobe XD, Adobe Photoshop, and Adobe Illustrator</li>
-				</ul>
-			</section>
-		</div>
-	</div>
+  </header>
 
-	<div class="container">
-		<!-- Main Contact -->
-		<nav class="main-contact column">
-			<h3>Contact Me:</h3>
-			<a class="contact" href="mailto:gabe.braddy@gmail.com" class="contact">Email</a>
-			<a class="contact" href="https://www.linkedin.com/in/gabebraddy">LinkedIn</a>
-			<a class="contact" href="https://codepen.io/gabeyb/">Codepen.io</a>
-		</nav>
-		<!-- //Main Contact -->
-	</div>
+  <main class="main-content contain" role="main">
+    <div class="main-inner">
+      <section class="name" role="region">
+        <div class="content-container">
+          <h1 class="banner-title">
+            <span class="banner-title-primary">Gabriel Braddy</span>
+            <span class="banner-title-secondary">Ui/Ux Designer &amp; Developer</span>
+          </h1>
+        </div>
+      </section>
+      <section class="container introduction" role="region">
+        <div class="content-container description">
+          <h2 class="region-title screen-reader-text">
+            Introduction
+          </h2>
+          <p>
+            I specialize in Ui/Ux design and development utilizing HTML (HTML5), CSS (CSS3), and Javascript. As at home
+            with designers as developers, I am at my best where these two disciplines come together. Creating solutions
+            that
+            are <strong>modern</strong>, <strong>responsive</strong>
+            , and <strong>accessible</strong>.
+          </p>
+        </div>
+      </section>
+
+      <section class="container skills" role="region">
+        <div class="content-container">
+          <h2 class="region-title">
+            Skills
+          </h2>
+          <ul class="skills-list">
+            <li>Fourteen years of web design, graphic design, and web development experience</li>
+            <li>Highly skilled in HTML (HTML5), CSS (CSS3), JQuery, and Web Accessibility</li>
+            <li>Proficient in Javascript (ES5), React, Express, Webpack, Babel and other Front End Development
+              "tooling"</li>
+            <li>Proficient in Sketch, Invision, and Adobe XD</li>
+            <li>Working familiarity with Node, and GraphQL</li>
+            <li><a href="https://docs.google.com/document/d/1-eS7MQlDC9U10hEM7aJwWMU3tZYJIPNPon5NGUUjIyY/edit?usp=sharing">See
+                my full resumé</a></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="content-container contain">
+      Gabriel Braddy 2019
+    </div>
+
+  </footer>
+
 </body>
 
 </html>

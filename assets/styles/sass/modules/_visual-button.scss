@@ -1,0 +1,21 @@
+.visual-button {
+  display: block;
+  color: $secondary-color;
+  outline: 1px solid $secondary-color;
+  padding: 8px 16px;
+  outline-offset: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .25s linear;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    outline: 1px solid $secondary-color;
+  }
+
+  &:focus {
+    color: $font-color;
+    outline: 1px dotted $secondary-color;
+  }
+}
