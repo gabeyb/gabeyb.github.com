@@ -27,11 +27,11 @@ body {
 * {
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
-  color: #565656; }
+  color: black; }
 
 a,
 a:hover {
-  color: #565656;
+  color: black;
   text-decoration: none; }
 
 h3 {
@@ -85,7 +85,7 @@ h3 {
     background-color: #FF82D3;
     outline: 1px solid #dadada; }
   .visual-button:focus {
-    color: #565656;
+    color: black;
     outline: 1px dotted #dadada; }
 
 .skills-list {
@@ -95,7 +95,7 @@ h3 {
     line-height: 1.5;
     margin: 16px; }
     .skills-list li a {
-      color: #565656;
+      color: black;
       padding: 3px;
       padding-left: 0;
       text-decoration: underline;
@@ -118,7 +118,7 @@ h3 {
     margin-top: 8px; }
 
 *[role="contentinfo"] .content-container {
-  color: #565656;
+  color: black;
   font-weight: bold;
   padding-top: 32px;
   padding-bottom: 32px; }
